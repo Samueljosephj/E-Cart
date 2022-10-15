@@ -1,0 +1,116 @@
+body{
+  text-align: center;
+
+}
+#title{
+font-family: 'Cinzel', serif;
+font-weight: bolder;
+color: #fff;
+}
+
+
+
+.background{
+
+  height: 500px;
+    width: 100%;
+  background-image: url('../images/bg1.png');
+  background-repeat:no-repeat;
+ background-size:100% 100%;
+}
+
+.container{
+  padding: 5% 15%;
+  font-weight: bolder;
+
+}
+
+.dp{
+  max-width: 200x;
+  height: 200px;
+border-radius: 50%;
+}
+
+.des{
+  text-align: left;
+  padding-top: 3%;
+  padding-right: 7%;
+
+}
+
+.pic{
+
+  height: 200px;
+  width: 200px;
+}
+
+.one{
+  padding: 5%;
+  border-style:solid;
+  border-color: powderblue;
+}
+.pad{
+  padding-left: 5%;
+}
+
+@media (max-width:1200px){
+.pic{
+  text-align: center;
+}
+  .dp{
+    text-align: center;
+  }
+  .pad {
+    text-align: center;
+  }
+
+
+}
+
+
+
+
+.nav-item{
+  padding-right: 50px;
+  font-weight: bold;
+}
+
+
+
+/* middle */
+
+.skill{
+  padding: 2% 0%;
+
+}
+
+
+#middle{
+  color: #A66CFF;
+  font-family: 'Cinzel', serif;
+  font-weight: bolder;
+}
+
+
+.list-group-item{
+  text-align: center;
+  line-height: 2em;
+}
+
+#hrx{ border:none;
+  border-top:10px dotted #A66CFF;
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+  width:50%;
+  margin-left: 25%;
+}
+.card{
+  margin-top: 3%;
+  position: relative;
+  left: 85px;
+}
+.others{
+  display: block;
+  min-width: 85%;
+}
